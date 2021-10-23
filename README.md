@@ -58,12 +58,12 @@ Standard Croatian keyboard layout is using AltGr key also for composing other ch
 Here are images of layout mappings with and without modifier keys:
 Modifier     | Layout
 -------------|-------------
-no modifier  |![US-HR](us-hr-v3\images\Layout_US-HR.png)
-Shift        |![US-HR Shift](us-hr-v3\images\Layout_US-HR_Shft.png)
-AltGr        |![US-HR AltGr](us-hr-v3\images\Layout_US-HR_AltGr.png)
-Shift + AltGr|![US-HR Shift + AltGr](us-hr-v3\images\Layout_US-HR_ShftAltGr.png)
-CapsLock     |![US-HR CapsLock](us-hr-v3\images\Layout_US-HR_Caps.png)
-Control      |![US-HR Ctrl](us-hr-v3\images\Layout_US-HR_Ctrl.png)
+no modifier  |![US-HR](us-hr-v3/images/Layout_US-HR.png)
+Shift        |![US-HR Shift](us-hr-v3/images/Layout_US-HR_Shft.png)
+AltGr        |![US-HR AltGr](us-hr-v3/images/Layout_US-HR_AltGr.png)
+Shift + AltGr|![US-HR Shift + AltGr](us-hr-v3/images/Layout_US-HR_ShftAltGr.png)
+CapsLock     |![US-HR CapsLock](us-hr-v3/images/Layout_US-HR_Caps.png)
+Control      |![US-HR Ctrl](us-hr-v3/images/Layout_US-HR_Ctrl.png)
 
 # Additional Resources
 [MSKLC Guide](https://msklc-guide.github.io/) contains detailed dive into Microsoft Keyboard Layout Creator peculiarities, including advanced usage.
