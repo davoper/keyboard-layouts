@@ -5,7 +5,7 @@ This is a collection of additional non-standard keyboard layouts for Microsoft W
 Currently available layouts include:
 Layout | Title | Source file | Setup package
 -------|-------|-------------|---------------
-[US layout with Croatian characters](#US-layout-with-Croatian-characters-\(US-HR-v3\)) | US-HR-v3 | [US-HR_keyboard_3.klc](us-hr-v3/US-HR_keyboard_3.klc) | [us-hr-v3.zip](us-hr-v3/us-hr-v3.zip)
+[US layout with Croatian characters](#us-layout-with-croatian-characters) | US-HR-v3 | [US-HR_keyboard_3.klc](us-hr-v3/US-HR_keyboard_3.klc) | [us-hr-v3.zip](us-hr-v3/us-hr-v3.zip)
 
 
 
@@ -39,7 +39,7 @@ For detailed instructions see: [Add input language](https://duckduckgo.com/?t=ff
 
 # Layouts
 
-## US layout with Croatian characters (US-HR-v3)
+## US layout with Croatian characters
 Title | Source file
 ------|------------
 US-HR-v3 | [US-HR_keyboard_3.klc](us-hr-v3/US-HR_keyboard_3.klc)
