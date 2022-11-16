@@ -5,8 +5,8 @@ This is a collection of additional non-standard keyboard layouts for Microsoft W
 Currently available layouts include:
 Layout | Title | Source file | Setup package
 -------|-------|-------------|---------------
-[US layout with Croatian characters Croatian language](#us-layout-with-croatian-characters-croatian-language) | US-HR-v3 | [US-HR_keyboard_3.klc](us-hr/US-HR_keyboard_3.klc) | See Releases section
-[US layout with Croatian characters English US language](#us-layout-with-croatian-characters-english-us-language) | EN-HR-v2 | [EN-HR_keyboard_2.klc](en-hr/EN-HR_keyboard_2.klc) | See Releases section
+[US layout with Croatian characters Croatian language](#us-layout-with-croatian-characters-croatian-language) | US-HR-v3 | [US-HR_Keyboard_3.klc](us-hr/US-HR_Keyboard_3.klc) | See Releases section
+[US layout with Croatian characters English US language](#us-layout-with-croatian-characters-english-us-language) | EN-HR-v2 | [ENU-HR_Keyboard_2.klc](en-hr/ENU-HR_Keyboard_2.klc) | See Releases section
 
 
 
@@ -45,7 +45,7 @@ For detailed instructions see: [Add input language](https://duckduckgo.com/?t=ff
 ## US layout with Croatian characters Croatian language
 Title | Source file
 ------|------------
-US-HR-v3 | [US-HR_keyboard_3.klc](us-hr/US-HR_keyboard_3.klc)
+US-HR-v3 | [US-HR_Keyboard_3.klc](us-hr/US-HR_Keyboard_3.klc)
 
 It is a combination of standard US layout with option to easily type Croatian specific characters (**&#353;, &#273;, &#269;, &#263;, &#382;**).
 Croatian characters are composed with AltGr + keys where those characters are placed on standard Croatian keyboard.
@@ -71,7 +71,7 @@ Control      |![US-HR Ctrl](us-hr/images/Layout_US-HR_Ctrl.png)
 ## US layout with Croatian characters English US language
 Title | Source file
 ------|------------
-EN-HR-v2 | [EN-HR_keyboard_2.klc](en-hr/EN-HR_keyboard_2.klc)
+EN-HR-v2 | [ENU-HR_Keyboard_2.klc](en-hr/ENU-HR_Keyboard_2.klc)
 
 This layout is the same as US-HR layout but the input language is English US.
 
