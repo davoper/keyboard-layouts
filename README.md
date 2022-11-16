@@ -15,12 +15,11 @@ There are two ways to install keyboard layouts:
 - [Run and install precompiled setup package](#installation-using-precompiled-setup-package)
 - [Creating setup package yourself](#Compiling-setup-package-and-installing-from-created-setup-package)
 
-Depending on current Windows language and active keyboard, restart of operating system might be needed after installation before new layout becomes active.
-
 ## Installation using precompiled setup package
 Download <layout>.zip package, extract it into a directory and run included _setup.exe_
 
 You will need Administrative privileges to install new keyboard layout on Windows operating system.
+(depending on current Windows language and active keyboard, restart of operating system might be needed after installation before new layout becomes active)
 
 ## Compiling setup package and installing from created setup package
 To create (compile) setup package and install selected layout you need to download and install [Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=102134) (latest version is 1.4 or actually 1.4.6000.2).
@@ -34,6 +33,7 @@ Finally select _Project / Build DLL and Setup package_ to create setup files for
 Run _setup.exe_ to install new layout.
 
 You will need Administrative privileges to install new keyboard layout on Windows operating system.
+(depending on current Windows language and active keyboard, restart of operating system might be needed after installation before new layout becomes active)
 
 # Using layouts
 After layout is installed simply choose it like any other existing keyboard layout that comes preinstalled, using Language settings.
