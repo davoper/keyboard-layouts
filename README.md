@@ -5,7 +5,8 @@ This is a collection of additional non-standard keyboard layouts for Microsoft W
 Currently available layouts include:
 Layout | Title | Source file | Setup package
 -------|-------|-------------|---------------
-[US layout with Croatian characters](#us-layout-with-croatian-characters) | US-HR-v3 | [US-HR_keyboard_3.klc](us-hr-v3/US-HR_keyboard_3.klc) | See Releases section
+[US layout with Croatian characters Croatian language](#us-layout-with-croatian-characters-croatian-language) | US-HR-v3 | [US-HR_keyboard_3.klc](us-hr/US-HR_keyboard_3.klc) | See Releases section
+[US layout with Croatian characters English US language](#us-layout-with-croatian-characters-english-us-language) | EN-HR-v2 | [EN-HR_keyboard_2.klc](en-hr/EN-HR_keyboard_2.klc) | See Releases section
 
 
 
@@ -13,6 +14,8 @@ Layout | Title | Source file | Setup package
 There are two ways to install keyboard layouts:
 - [Run and install precompiled setup package](#installation-using-precompiled-setup-package)
 - [Creating setup package yourself](#Compiling-setup-package-and-installing-from-created-setup-package)
+
+Depending on current Windows language and active keyboard, restart of operating system might be needed after installation before new layout becomes active.
 
 ## Installation using precompiled setup package
 Download <layout>.zip package, extract it into a directory and run included _setup.exe_
@@ -39,10 +42,10 @@ For detailed instructions see: [Add input language](https://duckduckgo.com/?t=ff
 
 # Layouts
 
-## US layout with Croatian characters
+## US layout with Croatian characters Croatian language
 Title | Source file
 ------|------------
-US-HR-v3 | [US-HR_keyboard_3.klc](us-hr-v3/US-HR_keyboard_3.klc)
+US-HR-v3 | [US-HR_keyboard_3.klc](us-hr/US-HR_keyboard_3.klc)
 
 It is a combination of standard US layout with option to easily type Croatian specific characters (**&#353;, &#273;, &#269;, &#263;, &#382;**).
 Croatian characters are composed with AltGr + keys where those characters are placed on standard Croatian keyboard.
@@ -58,12 +61,19 @@ Standard Croatian keyboard layout is using AltGr key also for composing other ch
 Here are images of layout mappings with and without modifier keys:
 Modifier     | Layout
 -------------|-------------
-no modifier  |![US-HR](us-hr-v3/images/Layout_US-HR.png)
-Shift        |![US-HR Shift](us-hr-v3/images/Layout_US-HR_Shft.png)
-AltGr        |![US-HR AltGr](us-hr-v3/images/Layout_US-HR_AltGr.png)
-Shift + AltGr|![US-HR Shift + AltGr](us-hr-v3/images/Layout_US-HR_ShftAltGr.png)
-CapsLock     |![US-HR CapsLock](us-hr-v3/images/Layout_US-HR_Caps.png)
-Control      |![US-HR Ctrl](us-hr-v3/images/Layout_US-HR_Ctrl.png)
+no modifier  |![US-HR](us-hr/images/Layout_US-HR.png)
+Shift        |![US-HR Shift](us-hr/images/Layout_US-HR_Shft.png)
+AltGr        |![US-HR AltGr](us-hr/images/Layout_US-HR_AltGr.png)
+Shift + AltGr|![US-HR Shift + AltGr](us-hr/images/Layout_US-HR_ShftAltGr.png)
+CapsLock     |![US-HR CapsLock](us-hr/images/Layout_US-HR_Caps.png)
+Control      |![US-HR Ctrl](us-hr/images/Layout_US-HR_Ctrl.png)
+
+## US layout with Croatian characters English US language
+Title | Source file
+------|------------
+EN-HR-v2 | [EN-HR_keyboard_2.klc](en-hr/EN-HR_keyboard_2.klc)
+
+This layout is the same as US-HR layout but the input language is English US.
 
 # Additional Resources
 [MSKLC Guide](https://msklc-guide.github.io/) contains detailed dive into Microsoft Keyboard Layout Creator peculiarities, including advanced usage.
